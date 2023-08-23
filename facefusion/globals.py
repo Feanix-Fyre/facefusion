@@ -28,3 +28,4 @@ max_memory : Optional[int] = None
 execution_providers : List[str] = []
 execution_thread_count : Optional[int] = None
 execution_queue_count : Optional[int] = None
+share : Optional[bool] = None
